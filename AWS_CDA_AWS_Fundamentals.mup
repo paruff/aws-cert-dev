@@ -1,0 +1,65 @@
+{
+  "title": "AWS CDA\nAWS Fundamentals",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Design cloud services",
+      "id": 10,
+      "attr": {
+        "style": {}
+      }
+    },
+    "2": {
+      "title": "Database concepts",
+      "id": 11,
+      "attr": {
+        "style": {}
+      }
+    },
+    "3": {
+      "title": "trade-off HA v $, RDS v EC2",
+      "id": 13,
+      "attr": {
+        "style": {}
+      }
+    },
+    "4": {
+      "title": "DynamoDB, BeanStalk, CloudFormation",
+      "id": 15,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-4": {
+      "title": "AWS Fundamentals",
+      "ideas": {},
+      "id": 9,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-5": {
+      "title": "Planning and design",
+      "id": 12,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-6": {
+      "title": "S3, SWF, MSG",
+      "id": 14,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-7": {
+      "title": "Elasticity and Scalability",
+      "id": 16,
+      "attr": {
+        "style": {}
+      }
+    }
+  },
+  "links": []
+}
