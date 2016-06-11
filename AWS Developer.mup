@@ -1,0 +1,122 @@
+{
+  "title": "AWS Developer",
+  "ideas": {
+    "1": {
+      "title": "AWS Fundamentals",
+      "ideas": {
+        "1": {
+          "title": "Design cloud services",
+          "id": 3
+        },
+        "2": {
+          "title": "Database concepts",
+          "id": 4
+        },
+        "3": {
+          "title": "Planning and design",
+          "id": 5
+        },
+        "4": {
+          "title": "trade-off HA v $, RDS v EC2",
+          "id": 6
+        },
+        "5": {
+          "title": "S3, SWF, MSG",
+          "id": 7
+        },
+        "6": {
+          "title": "DynamoDB, BeanStalk, CloudFormation",
+          "id": 8
+        },
+        "7": {
+          "title": "Elasticity and Scalability",
+          "id": 9
+        }
+      },
+      "id": 2
+    },
+    "2": {
+      "title": "Designing and Developing",
+      "ideas": {
+        "1": {
+          "title": "Configur and AMI",
+          "id": 11
+        },
+        "2": {
+          "title": "Programming with AWS APIs",
+          "id": 12
+        }
+      },
+      "id": 10
+    },
+    "4": {
+      "title": "Debugging",
+      "ideas": {
+        "1": {
+          "title": "Best Practices",
+          "id": 25
+        },
+        "2": {
+          "title": "Troubleshooting informatioon adn questions",
+          "id": 26
+        }
+      },
+      "id": 24
+    },
+    "-10": {
+      "title": "Deployment and Security",
+      "ideas": {
+        "1": {
+          "title": "procedures for optimum deploy and maintence",
+          "ideas": {
+            "1": {
+              "title": "Cloud Security Best Practices",
+              "id": 15
+            }
+          },
+          "id": 14
+        },
+        "2": {
+          "title": "architecture for development, testing and staging environments",
+          "ideas": {
+            "1": {
+              "title": "Shared Security Responsibility Model",
+              "id": 17
+            },
+            "2": {
+              "title": "Platform Compliance",
+              "id": 18
+            },
+            "3": {
+              "title": "Security Attributes",
+              "id": 19
+            },
+            "4": {
+              "title": "Security Services",
+              "id": 20
+            },
+            "5": {
+              "title": "IAM",
+              "id": 21
+            },
+            "6": {
+              "title": "VPC",
+              "id": 22
+            },
+            "7": {
+              "title": "CIA and AAA Models, ingress vs egress filtering",
+              "id": 23
+            }
+          },
+          "id": 16
+        }
+      },
+      "id": 13,
+      "attr": {
+        "style": {}
+      }
+    }
+  },
+  "formatVersion": 2,
+  "id": 1
+}
