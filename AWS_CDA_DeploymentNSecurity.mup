@@ -1,0 +1,58 @@
+{
+  "title": "AWS CDA\nDeployment and Security\n",
+  "ideas": {
+    "1": {
+      "title": "procedures for optimum deploy and maintence",
+      "ideas": {
+        "1": {
+          "title": "Cloud Security Best Practices",
+          "id": 15
+        }
+      },
+      "id": 14,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-10": {
+      "title": "architecture for development, testing and staging environments",
+      "ideas": {
+        "1": {
+          "title": "Shared Security Responsibility Model",
+          "id": 17
+        },
+        "2": {
+          "title": "Platform Compliance",
+          "id": 18
+        },
+        "3": {
+          "title": "Security Attributes",
+          "id": 19
+        },
+        "4": {
+          "title": "Security Services",
+          "id": 20
+        },
+        "5": {
+          "title": "IAM",
+          "id": 21
+        },
+        "6": {
+          "title": "VPC",
+          "id": 22
+        },
+        "7": {
+          "title": "CIA and AAA Models, ingress vs egress filtering",
+          "id": 23
+        }
+      },
+      "id": 16,
+      "attr": {
+        "style": {}
+      }
+    }
+  },
+  "formatVersion": 2,
+  "id": 1,
+  "links": []
+}
