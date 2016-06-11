@@ -49,20 +49,6 @@
       },
       "id": 10
     },
-    "4": {
-      "title": "Debugging",
-      "ideas": {
-        "1": {
-          "title": "Best Practices",
-          "id": 25
-        },
-        "2": {
-          "title": "Troubleshooting informatioon adn questions",
-          "id": 26
-        }
-      },
-      "id": 24
-    },
     "-10": {
       "title": "Deployment and Security",
       "ideas": {
@@ -112,6 +98,23 @@
         }
       },
       "id": 13,
+      "attr": {
+        "style": {}
+      }
+    },
+    "-20": {
+      "title": "Debugging",
+      "ideas": {
+        "1": {
+          "title": "Best Practices",
+          "id": 25
+        },
+        "2": {
+          "title": "Troubleshooting informatioon adn questions",
+          "id": 26
+        }
+      },
+      "id": 24,
       "attr": {
         "style": {}
       }
