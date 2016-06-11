@@ -35,7 +35,33 @@
         },
         "5": {
           "title": "IAM",
-          "id": 21
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "USERS, GROUPS & ROLES",
+              "id": 24
+            },
+            "2": {
+              "title": "SAML",
+              "id": 26,
+              "ideas": {
+                "1": {
+                  "title": "Auth against Identity Provider",
+                  "id": 27,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "AssumeRoleWithWebIdenty",
+                  "id": 28,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
+          }
         },
         "6": {
           "title": "VPC",
