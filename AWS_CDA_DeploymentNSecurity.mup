@@ -65,7 +65,63 @@
         },
         "6": {
           "title": "VPC",
-          "id": 22
+          "id": 22,
+          "ideas": {
+            "2": {
+              "title": "IGW",
+              "id": 30,
+              "ideas": {
+                "1": {
+                  "title": "1 per VPC",
+                  "id": 31
+                }
+              }
+            },
+            "3": {
+              "title": "SUBNET",
+              "id": 32,
+              "ideas": {
+                "1": {
+                  "title": "private 0 internet",
+                  "id": 33
+                },
+                "2": {
+                  "title": "public internet",
+                  "id": 34
+                },
+                "3": {
+                  "title": "1 per AZ",
+                  "id": 35
+                }
+              }
+            },
+            "4": {
+              "title": "NAT",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "DISABLE SOURCE/DESTINATION CHECK",
+                  "id": 37
+                },
+                "2": {
+                  "title": "BOOTLENECK CAN BE SIZE OF INSTANCE",
+                  "id": 39
+                },
+                "3": {
+                  "title": "PUBLIC SUBNET",
+                  "id": 40
+                },
+                "4": {
+                  "title": "ELASTIC IP",
+                  "id": 41
+                },
+                "5": {
+                  "title": "ADD ROUTE",
+                  "id": 42
+                }
+              }
+            }
+          }
         },
         "7": {
           "title": "CIA and AAA Models, ingress vs egress filtering",
