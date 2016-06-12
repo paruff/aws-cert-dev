@@ -8,6 +8,7 @@
 
 Mindmup -
 Please note the extension to use github as the source for maps.
+[10 best practices for mindmapping](http://www.business2community.com/strategy/the-ultimate-guide-to-mind-maps-and-mind-mapping-tools-0152013#zzGADY6EqCg5hj0D.97)
 
 My studying and mastering process:
  1. create a mind map of cert exam objectives
