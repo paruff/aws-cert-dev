@@ -19,7 +19,55 @@
       "ideas": {
         "1": {
           "title": "Shared Security Responsibility Model",
-          "id": 17
+          "id": 17,
+          "ideas": {
+            "1": {
+              "title": "INFRASTRUCTURE",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "AWS ENDPOINTS",
+                  "id": 45
+                },
+                "2": {
+                  "title": "AWS GLOBAL INFRASTRUCTURE",
+                  "id": 48
+                },
+                "3": {
+                  "title": "FOUNDATION SERVICES",
+                  "id": 49
+                }
+              }
+            },
+            "2": {
+              "title": "CONTAINER",
+              "id": 44,
+              "ideas": {
+                "1": {
+                  "title": "OS & NETWORK CONFIGURATION",
+                  "id": 46
+                },
+                "2": {
+                  "title": "PLATFORM & APLICATION MANAGEMENT",
+                  "id": 47
+                }
+              }
+            },
+            "3": {
+              "title": "ABSTRACTED",
+              "id": 50,
+              "ideas": {
+                "1": {
+                  "title": "SERVER SIDE ENCRYPTION",
+                  "id": 52
+                },
+                "2": {
+                  "title": "NETWORK TRAFFIC",
+                  "id": 53
+                }
+              }
+            }
+          }
         },
         "2": {
           "title": "Platform Compliance",
