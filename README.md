@@ -10,7 +10,7 @@ Mindmup -
 Please note the extension to use github as the source for maps.
 
 My studying nad mastering process:
-1. create a mind map of cert exam objectives
-2. create mind maps for each domain
-3. Review maps before and after each study session
-4. Add content to domain mind maps after study sessions, add graphics/visuals
+ 1. create a mind map of cert exam objectives
+ 2. create mind maps for each domain
+ 3. Review maps before and after each study session
+ 4. Add content to domain mind maps after study sessions, add graphics/visuals
