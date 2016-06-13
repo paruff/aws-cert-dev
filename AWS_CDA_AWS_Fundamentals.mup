@@ -77,20 +77,32 @@
         },
         "2": {
           "title": "CFN",
-          "id": 20
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "cost for services used",
+              "id": 32
+            },
+            "2": {
+              "title": "OUTPUTS",
+              "id": 33,
+              "ideas": {
+                "1": {
+                  "title": "Fn:GetAtt",
+                  "id": 35
+                }
+              }
+            },
+            "3": {
+              "title": "Identify CFN JSON",
+              "id": 34
+            }
+          }
         },
         "3": {
           "title": "DynamoDB",
           "id": 21
         }
-      }
-    },
-    "-4": {
-      "title": "AWS Fundamentals",
-      "ideas": {},
-      "id": 9,
-      "attr": {
-        "style": {}
       }
     },
     "-5": {
