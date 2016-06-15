@@ -3,276 +3,15 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
-      "title": "Design cloud services",
-      "id": 10,
-      "attr": {
-        "style": {}
-      }
-    },
-    "2": {
-      "title": "Database concepts",
-      "id": 11,
-      "attr": {
-        "style": {}
-      }
-    },
-    "3": {
-      "title": "trade-off HA v $, RDS v EC2",
-      "id": 13,
-      "attr": {
-        "style": {}
-      }
-    },
-    "4": {
-      "title": "DynamoDB, BeanStalk, CloudFormation",
-      "id": 15,
-      "attr": {
-        "style": {}
-      },
-      "ideas": {
-        "1": {
-          "title": "BS",
-          "id": 18,
-          "ideas": {
-            "1": {
-              "title": "cost for services used",
-              "id": 22
-            },
-            "2": {
-              "title": "supported",
-              "id": 23,
-              "ideas": {
-                "1": {
-                  "title": "iis",
-                  "id": 24
-                },
-                "2": {
-                  "title": "node.js",
-                  "id": 25
-                },
-                "3": {
-                  "title": "tomcat",
-                  "id": 26
-                },
-                "4": {
-                  "title": "PHP",
-                  "id": 27
-                },
-                "5": {
-                  "title": "Docker",
-                  "id": 28
-                },
-                "4.5": {
-                  "title": "Ruby",
-                  "id": 30
-                },
-                "4.25": {
-                  "title": "Python",
-                  "id": 31
-                }
-              }
-            }
-          }
-        },
-        "2": {
-          "title": "CFN",
-          "id": 20,
-          "ideas": {
-            "1": {
-              "title": "cost for services used",
-              "id": 32
-            },
-            "2": {
-              "title": "OUTPUTS",
-              "id": 33,
-              "ideas": {
-                "1": {
-                  "title": "Fn:GetAtt",
-                  "id": 35
-                }
-              }
-            },
-            "3": {
-              "title": "Identify CFN JSON",
-              "id": 34
-            }
-          }
-        },
-        "3": {
-          "title": "DynamoDB",
-          "id": 21,
-          "ideas": {
-            "1": {
-              "title": "Eventually Consistent Reads",
-              "id": 96
-            },
-            "2": {
-              "title": "KEYS",
-              "id": 98,
-              "ideas": {
-                "1": {
-                  "title": "PARTITION/HASH",
-                  "id": 106
-                },
-                "2": {
-                  "title": "SORT",
-                  "id": 107
-                }
-              }
-            },
-            "3": {
-              "title": "INDEXES",
-              "id": 99,
-              "ideas": {
-                "1": {
-                  "title": "LOCAL",
-                  "id": 100,
-                  "attr": {
-                    "style": {}
-                  },
-                  "ideas": {
-                    "1": {
-                      "title": "@CREATE",
-                      "id": 101
-                    },
-                    "2": {
-                      "title": "SAME PARTITION",
-                      "id": 102
-                    }
-                  }
-                },
-                "2": {
-                  "title": "GLOBAL",
-                  "id": 103,
-                  "ideas": {
-                    "1": {
-                      "title": "@ANY",
-                      "id": 104
-                    },
-                    "2": {
-                      "title": "^PARTITION",
-                      "id": 105
-                    }
-                  }
-                }
-              }
-            },
-            "4": {
-              "title": "STREAMS",
-              "id": 108
-            },
-            "5": {
-              "title": "QUERY",
-              "id": 109,
-              "ideas": {
-                "1": {
-                  "title": "PARTITION KEY",
-                  "id": 111
-                }
-              }
-            },
-            "6": {
-              "title": "SCAN",
-              "id": 110,
-              "ideas": {
-                "1": {
-                  "title": "ProjectExpression",
-                  "id": 112
-                },
-                "2": {
-                  "title": "ALL",
-                  "id": 113
-                }
-              }
-            },
-            "7": {
-              "title": "THROUGHPUT",
-              "id": 114,
-              "ideas": {
-                "1": {
-                  "title": "READS",
-                  "id": 115,
-                  "ideas": {
-                    "1": {
-                      "title": "(ITEM X KB/4)/2 = EVENTUALS UNITS",
-                      "id": 119
-                    },
-                    "2": {
-                      "title": "ITEM X KB/4 = STRONG UNITS",
-                      "id": 120
-                    }
-                  }
-                },
-                "2": {
-                  "title": "WRITES",
-                  "id": 116,
-                  "ideas": {
-                    "1": {
-                      "title": "ITEM X KB = UNITS",
-                      "id": 118
-                    }
-                  }
-                }
-              }
-            },
-            "8": {
-              "title": "CONDITIONAL WRITE",
-              "id": 121,
-              "ideas": {
-                "1": {
-                  "title": "IDEMPOTENT",
-                  "id": 122
-                }
-              }
-            },
-            "9": {
-              "title": "ATOMIC WRITE",
-              "id": 123,
-              "ideas": {
-                "1": {
-                  "title": "UpdateItem",
-                  "id": 125
-                }
-              }
-            },
-            "10": {
-              "title": "BATCH",
-              "id": 126,
-              "ideas": {
-                "1": {
-                  "title": "BatchGetItem",
-                  "id": 128,
-                  "ideas": {
-                    "1": {
-                      "title": "1 MB",
-                      "id": 130
-                    },
-                    "2": {
-                      "title": "100 items",
-                      "id": 131
-                    },
-                    "3": {
-                      "title": "MultiTables",
-                      "id": 132
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "14": {
       "title": "Elasticity and Scalability",
       "id": 16,
       "attr": {
         "style": {},
         "position": [
-          210,
-          848,
-          1
+          239,
+          -238,
+          4
         ]
       },
       "ideas": {
@@ -312,6 +51,229 @@
             }
           }
         }
+      }
+    },
+    "24": {
+      "title": "DynamoDB",
+      "id": 21,
+      "ideas": {
+        "1": {
+          "title": "Eventually Consistent Reads",
+          "id": 96
+        },
+        "2": {
+          "title": "KEYS",
+          "id": 98,
+          "ideas": {
+            "1": {
+              "title": "PARTITION",
+              "id": 106
+            },
+            "2": {
+              "title": "SORT",
+              "id": 107
+            }
+          }
+        },
+        "3": {
+          "title": "INDEXES",
+          "id": 99,
+          "ideas": {
+            "1": {
+              "title": "LOCAL SECONDARY",
+              "id": 100,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "@CREATE",
+                  "id": 101
+                },
+                "2": {
+                  "title": "SAME PARTITION",
+                  "id": 102
+                }
+              }
+            },
+            "2": {
+              "title": "GLOBAL",
+              "id": 103,
+              "ideas": {
+                "1": {
+                  "title": "@ANY",
+                  "id": 104
+                },
+                "2": {
+                  "title": "^PARTITION",
+                  "id": 105
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "STREAMS",
+          "id": 108
+        },
+        "5": {
+          "title": "QUERY",
+          "id": 109,
+          "ideas": {
+            "1": {
+              "title": "PARTITION KEY",
+              "id": 111
+            }
+          }
+        },
+        "6": {
+          "title": "SCAN",
+          "id": 110,
+          "ideas": {
+            "1": {
+              "title": "ProjectExpression",
+              "id": 112
+            },
+            "2": {
+              "title": "ALL",
+              "id": 113
+            }
+          }
+        },
+        "7": {
+          "title": "THROUGHPUT",
+          "id": 114,
+          "ideas": {
+            "1": {
+              "title": "READS",
+              "id": 115,
+              "ideas": {
+                "1": {
+                  "title": "(ITEM/SEC X KB/4)/2 = EVENTUALS UNITS",
+                  "id": 119
+                },
+                "2": {
+                  "title": "ITEM/SEC X KB/4 = STRONG UNITS",
+                  "id": 120
+                }
+              }
+            },
+            "2": {
+              "title": "WRITES",
+              "id": 116,
+              "ideas": {
+                "1": {
+                  "title": "ITEM/SEC X KB = UNITS",
+                  "id": 118
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "title": "CONDITIONAL WRITE",
+          "id": 121,
+          "ideas": {
+            "1": {
+              "title": "IDEMPOTENT",
+              "id": 122
+            }
+          }
+        },
+        "9": {
+          "title": "ATOMIC WRITE",
+          "id": 123,
+          "ideas": {
+            "1": {
+              "title": "UpdateItem",
+              "id": 125
+            }
+          }
+        },
+        "10": {
+          "title": "BATCH",
+          "id": 126,
+          "ideas": {
+            "1": {
+              "title": "BatchGetItem",
+              "id": 128,
+              "ideas": {
+                "1": {
+                  "title": "1 MB",
+                  "id": 130
+                },
+                "2": {
+                  "title": "100 items",
+                  "id": 131
+                },
+                "3": {
+                  "title": "MultiTables",
+                  "id": 132
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          342,
+          403,
+          2
+        ]
+      }
+    },
+    "34": {
+      "title": "BS",
+      "id": 18,
+      "ideas": {
+        "1": {
+          "title": "cost for services used",
+          "id": 22
+        },
+        "2": {
+          "title": "supported",
+          "id": 23,
+          "ideas": {
+            "1": {
+              "title": "iis",
+              "id": 24
+            },
+            "2": {
+              "title": "node.js",
+              "id": 25
+            },
+            "3": {
+              "title": "tomcat",
+              "id": 26
+            },
+            "4": {
+              "title": "PHP",
+              "id": 27
+            },
+            "5": {
+              "title": "Docker",
+              "id": 28
+            },
+            "4.5": {
+              "title": "Ruby",
+              "id": 30
+            },
+            "4.25": {
+              "title": "Python",
+              "id": 31
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          266,
+          718,
+          5
+        ]
       }
     },
     "-5": {
@@ -551,6 +513,69 @@
           "id": 85
         }
       },
+      "attr": {
+        "style": {}
+      }
+    },
+    "8.5": {
+      "title": "CFN",
+      "id": 20,
+      "ideas": {
+        "1": {
+          "title": "cost for services used",
+          "id": 32
+        },
+        "2": {
+          "title": "OUTPUTS",
+          "id": 33,
+          "ideas": {
+            "1": {
+              "title": "Fn:GetAtt",
+              "id": 35
+            }
+          }
+        },
+        "3": {
+          "title": "Identify CFN JSON",
+          "id": 34
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          243,
+          -428,
+          10
+        ]
+      }
+    },
+    "-2.5": {
+      "title": "Design cloud services",
+      "id": 10,
+      "attr": {
+        "style": {},
+        "position": [
+          220,
+          -876,
+          8
+        ]
+      }
+    },
+    "-1.25": {
+      "title": "Database concepts",
+      "id": 11,
+      "attr": {
+        "style": {},
+        "position": [
+          250,
+          -942,
+          9
+        ]
+      }
+    },
+    "-3.75": {
+      "title": "trade-off HA v $, RDS v EC2",
+      "id": 13,
       "attr": {
         "style": {}
       }
