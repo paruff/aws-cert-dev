@@ -112,7 +112,7 @@
               "id": 98,
               "ideas": {
                 "1": {
-                  "title": "PARTITION",
+                  "title": "PARTITION/HASH",
                   "id": 106
                 },
                 "2": {
@@ -126,7 +126,7 @@
               "id": 99,
               "ideas": {
                 "1": {
-                  "title": "LOCAL SECONDARY",
+                  "title": "LOCAL",
                   "id": 100,
                   "attr": {
                     "style": {}
