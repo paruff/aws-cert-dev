@@ -15,7 +15,7 @@
       }
     },
     "-10": {
-      "title": "architecture for development, testing and staging environments",
+      "title": "architecture for environments",
       "ideas": {
         "1": {
           "title": "Shared Security Responsibility Model",
